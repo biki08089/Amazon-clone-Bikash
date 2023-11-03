@@ -620,10 +620,10 @@
   let getImg = document.getElementById("demo-product-image");
   let loc = localStorage.getItem("directory");
   getImg.setAttribute("src", `${loc}`);
-
   // END
 
   /* This block of code will decide how many time user can add items to the cart.*/
+  
   let cartClicked = document.getElementById("addToCart");
   let count = 0;
   cartClicked.addEventListener("click", function () {
