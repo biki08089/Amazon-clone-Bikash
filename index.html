@@ -1199,9 +1199,6 @@
         </p>
       </div>
     </div>
-    <div id="demo-product"></div>
-    <p class="ashwinee"></p>
-    <p class="ashwinee"></p>
     <script src="index.js"></script>
   </body>
 </html>
@@ -1211,6 +1208,7 @@
   the code below will detect which image got clicked and then will create a variable 
   in the loacal storage which will store the path of the image inside that variable 
   named"directory". */
+  
   for (let u = 0; u <= 1; u++) {
     let Item = document.getElementsByClassName("unordered-item")[u];
     Item.addEventListener("click", function (event) {
@@ -1230,7 +1228,6 @@ those products the page will take us to a new page(DEMO PRODUCT PAGE).*/
       window.location.assign("page/index.html");
     });
   });
-
 // END
 
 
@@ -1251,6 +1248,7 @@ also it will show a random image inside that new page.*/
 
 /* This block of code below will get the value of how many cart itmes has been add to the cart 
 and will show in the top right corner of the screen in number . Maximum cart Value is 10 */
+  
   let homepageCart = localStorage.getItem("store");
   document.getElementById("zero").innerHTML = homepageCart;
   if (homepageCart == 10) {
