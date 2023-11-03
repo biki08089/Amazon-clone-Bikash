@@ -41,7 +41,6 @@ buttonApply.addEventListener("click", function () {
     document.getElementById("hello").innerHTML = "Pincode";
   }
 });
-
 // END
 
 
@@ -70,6 +69,7 @@ g.addEventListener("click", function () {
 //END
 
 // Section-1 Banner image Animation side to side in a loop
+
 function secAnime() {
   let Animate = document.getElementsByClassName("sec-img")[0];
   let Animate2nd = document.getElementsByClassName("sec-img2nd")[0];
@@ -121,6 +121,7 @@ setInterval(() => {
 // END
 
 // Will scroll the screen from bottom to top when you click on "Back to top" button.
+
 let sec7 = document.getElementById("section7");
 function goUp() {
   document.body.scrollTop = "0";
@@ -172,5 +173,4 @@ for (let z = 0; z <= 2; z++) {
     }
   });
 }
-
 //END
